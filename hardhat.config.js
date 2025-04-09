@@ -21,7 +21,7 @@ module.exports = {
     },
     // Add Educhain network configuration here
     educhain: {
-      url: process.env.EDUCHAIN_RPC_URL || "https://rpc.educhain.network",
+      url: process.env.EDUCHAIN_RPC_URL || "https://rpc.open-campus-codex.gelato.digital/",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : []
     }
   },
